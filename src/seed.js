@@ -3,10 +3,10 @@
 export function seedDatabase(firebase) {
   const users = [
     {
-      userId: "NvPY9M9MzFTARQ6M816YAzDJxZ72",
-      username: "karl",
-      fullName: "Karl Hadwen",
-      emailAddress: "karlhadwen@gmail.com",
+      userId: "SKpDzcE1a0MWDT2PDyFuCcI9NZF2",
+      username: "koshantanu",
+      fullName: "Shantanu Kumar",
+      emailAddress: "koshantanu@gmail.com",
       following: ["2"],
       followers: ["2", "3", "4"],
       dateCreated: Date.now(),
@@ -17,7 +17,7 @@ export function seedDatabase(firebase) {
       fullName: "Raffaello Sanzio da Urbino",
       emailAddress: "raphael@sanzio.com",
       following: [],
-      followers: ["NvPY9M9MzFTARQ6M816YAzDJxZ72"],
+      followers: ["SKpDzcE1a0MWDT2PDyFuCcI9NZF2"],
       dateCreated: Date.now(),
     },
     {
